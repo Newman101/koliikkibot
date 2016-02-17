@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import random
+import tweepy
 
 # Enkoodauksessa on jotakin perseellään mutta generointi toimii muuten OK.
 # Paska algoritmi mutta tuo rautalankamalli menettelee aluksi.
@@ -16,7 +17,7 @@ def koliikkigeneraattori():
 	lause = adj + " " + subj + " " + verb + " " + obj + "! " + lopk
 	aivopieru = lause.upper()
 	print aivopieru + "(" + str(len(aivopieru)) + ")"
-	
+
 adjektiivit = [
   "Likainen",
   "Laiska",
