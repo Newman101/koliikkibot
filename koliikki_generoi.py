@@ -2,6 +2,8 @@
 
 import random
 import tweepy
+import time
+import sys
 
 # Enkoodauksessa on jotakin perseellään mutta generointi toimii muuten OK.
 # Paska algoritmi mutta tuo rautalankamalli menettelee aluksi.
