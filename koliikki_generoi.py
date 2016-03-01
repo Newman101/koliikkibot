@@ -5,6 +5,11 @@ import tweepy
 import time
 import sys
 
+CONSUMER_KEY = ''
+CONSUMER_SECRET = ''
+ACCESS_KEY = ''
+ACCESS_SECRET = ''
+
 # Enkoodauksessa on jotakin perseellään mutta generointi toimii muuten OK.
 # Paska algoritmi mutta tuo rautalankamalli menettelee aluksi.
 # Jos ihmettelette tuota viimeistä ketjutusta aivopieru-merkkijonon lopussa,
