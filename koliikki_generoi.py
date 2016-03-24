@@ -10,6 +10,10 @@ CONSUMER_SECRET = ''
 ACCESS_KEY = ''
 ACCESS_SECRET = ''
 
+auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
+auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
+api = tweepy.API(auth)
+
 # Enkoodauksessa on jotakin perseellään mutta generointi toimii muuten OK.
 # Paska algoritmi mutta tuo rautalankamalli menettelee aluksi.
 # Jos ihmettelette tuota viimeistä ketjutusta aivopieru-merkkijonon lopussa,
