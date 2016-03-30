@@ -58,6 +58,7 @@ verbit = [
   "tappaa",
   "raiskasi",
   "kähveltää",
+  "kähvelsi",
   "koplasi",
   "varasti",
   "tuhopoltti",
@@ -70,7 +71,8 @@ verbit = [
   "kuppaa",
   "rosvoaa",
   "rosvosi",
-  "suhmuroi"
+  "suhmuroi",
+  "vatuloi"
 ]
 
 subjektit = [
@@ -236,7 +238,22 @@ subjektit = [
   "vapaamatkustaja",
   "sharia-laki",
   "vellihousu",
-  "aseistariisuja"
+  "aseistariisuja",
+  "suvakkiämmä",
+  "somalineekeri",
+  "arvojohtaja",
+  "karvalapsi",
+  "karvavauveli",
+  "moraalisäteilijä",
+  "eläkepommi",
+  "afromusuarabi",
+  "iphone-mies",
+  "eurabia",
+  "kilpailukykyloikka",
+  "punaporvari",
+  "vasemmistoradikaali",
+  "siirtolainen",
+  "suvaitsevaisto"
 ]
 
 objektit = [
@@ -272,7 +289,9 @@ objektit = [
   "hyvinvointivaltion",
   "suomalaisen sosiaaliturvan",
   "suomen itsenäisyyden",
-  "suomalaisen lihaa syövän heteromiehen"
+  "suomalaisen lihaa syövän heteromiehen",
+  "yhteiskuntasopimuksen",
+  "suomen kansallisomaisuuden"
 ]
 
 loppukaneetit = [
@@ -317,7 +336,9 @@ loppukaneetit = [
   "maassa maan tavalla tai maasta pois!",
   "rajat kiinni!",
   "suomi tarvitsee sotilasvallankaappauksen!",
-  "höpöhöpöhuttua!"
+  "höpöhöpöhuttua!",
+  "maailmanpokerissa vedätetään!",
+  "eurabia on tulevaisuutta!"
 ]
 
 # Bottia ajetaan toistaiseksi komentokehoitteelta
