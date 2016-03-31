@@ -27,7 +27,7 @@ def koliikkigeneraattori():
 	lopk = random.choice(loppukaneetit)
 	lause = adj + " " + subj + " " + verb + " " + obj + "! " + lopk
 	aivopieru = lause.upper()
-	print aivopieru + "(" + str(len(aivopieru)) + ")"
+	api.update_status(aivopieru)
 
 adjektiivit = [
   "Likainen",
