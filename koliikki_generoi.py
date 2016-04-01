@@ -14,11 +14,6 @@ auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 api = tweepy.API(auth)
 
-# Enkoodauksessa on jotakin perseellään mutta generointi toimii muuten OK.
-# Paska algoritmi mutta tuo rautalankamalli menettelee aluksi.
-# Jos ihmettelette tuota viimeistä ketjutusta aivopieru-merkkijonon lopussa,
-# se on Twitteriä varten - 140 merkin rajan vuoksi.
-
 def koliikkigeneraattori():
 	adj = random.choice(adjektiivit)
 	verb = random.choice(verbit)
@@ -340,9 +335,5 @@ loppukaneetit = [
   "maailmanpokerissa vedätetään!",
   "eurabia on tulevaisuutta!"
 ]
-
-# Bottia ajetaan toistaiseksi komentokehoitteelta
-# Pidän tämän printin kunnes koko roska valmis siirrettäväksi
-# Tweepyyn
 
 koliikkigeneraattori()
